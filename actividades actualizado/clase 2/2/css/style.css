@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbeaea; /* Fondo suave rosado */
+}
+
+.calculadora {
+    background-color: #fff5f5; /* Fondo blanco con tinte rosado */
+    padding: 40px;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); /* Sombra rojiza */
+    width: 400px;
+    border: 2px solid #ff4d4d; /* Borde rojo elegante */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ff4d4d; /* Borde rojo */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #fff0f0; /* Fondo claro rojizo */
+    color: #900; /* Texto rojo oscuro */
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ff6666; /* Rojo claro */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.2); /* Sombra ligera */
+}
+
+button:hover {
+    background-color: #e60000; /* Rojo más intenso */
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el cursor */
+}
